@@ -11,3 +11,16 @@ sentence-transformers
 flashtext
 scikit-learn
 torch
+PyPDF2
+pdfminer.six
+python-docx
+spacy
+supabase
+python-dateutil
+fastapi
+uvicorn
+python-multipart
+mangum
+pdfplumber
+spacy
+pycountry

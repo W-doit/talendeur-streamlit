@@ -1,0 +1,12 @@
+[build]
+  command = "pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+  functions = "api"
+
+[functions]
+  included_files = ["api/*.py"]
+  timeout = 26
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/main_talendeur"
+  status = 200

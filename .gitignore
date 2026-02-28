@@ -1,6 +1,15 @@
-#Ignore csv files in root folder
-#*.csv
-#Ignore virtual environment folder
-venv/.env
-#ignore local configuration of Vs Code
+# Ignore CSV files
+*.csv
+
+# Ignore virtual environment folders (standard names)
+venv/
+.env/
+env/
+ENV/
+
+# Ignore local configuration of VS Code
 .vscode/
+
+# Ignore Python cache (compiled files)
+__pycache__/
+*.py[cod]
